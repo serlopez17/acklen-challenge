@@ -8,6 +8,18 @@ const pages = {
 
 Given(/^I am on the (\w+) page$/, (page) => {
     pages[page].open()
-    browser.debug()
 });
+
+When(/^I choose a (.+)$/, (parkingLot) => {
+    console.log("Parking lot:" , parkingLot)
+})
+
+Then(/^the rate is (.+) so the price is (.+)$/, (rate,price) => {
+    console.log("Rate:" , rate)
+    console.log("Precioa:", price)
+})
+
+Then(/^the cost should be calculated propertly with the entry date-time and leaving date-time provided$/, () => {
+    
+})
 
