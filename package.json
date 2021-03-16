@@ -1,0 +1,31 @@
+{
+  "name": "acklen-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio run ./wdio.conf.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serlopez17/acklen-challenge.git"
+  },
+  "author": "Sergio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serlopez17/acklen-challenge/issues"
+  },
+  "homepage": "https://github.com/serlopez17/acklen-challenge#readme",
+  "dependencies": {
+    "@wdio/cli": "^7.1.2"
+  },
+  "devDependencies": {
+    "@wdio/cucumber-framework": "^7.1.2",
+    "@wdio/local-runner": "^7.1.2",
+    "@wdio/spec-reporter": "^7.1.1",
+    "@wdio/sync": "^7.1.1",
+    "chromedriver": "^89.0.0",
+    "wdio-chromedriver-service": "^7.0.0"
+  }
+}
